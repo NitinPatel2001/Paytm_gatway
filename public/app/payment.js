@@ -4,7 +4,7 @@ $('#pay').click(()=>{
     const roll = $('#roll').val()
     const amount = 1000
     const email = $('#email').val()
-    const phone = $('phone').val()
+    const phone = $('#phone').val()
     $.post('/payment/paynow',{name,amount,email,phone},(results)=>{
         // not done because results is unknwn
     })
