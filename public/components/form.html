@@ -1,0 +1,39 @@
+<div id="form" class="container">
+    <div style="font-size: 40px;" class="text-center">IEEE Membership payment portal</div>
+    <br><br>
+    <form>
+        <div class="form-group">
+            <label for="name">Memborship coordinator name</label>
+            <select class="form-control" id="cor_name">
+                <option></option>
+                <option>Piyush Kumar Sahoo</option>
+                <option>Priyansh Tyagi</option>
+                <option>Hemang Sinha</option>
+                <option>Vaibhav Srivastava</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Name">
+        </div>
+        <div class="form-group">
+            <label for="roll">RollNo</label>
+            <input type="text" class="form-control" id="roll" placeholder="Roll No">
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Email">
+        </div>
+        <div class="form-group">
+            <label for="phone">Phone No</label>
+            <input type="phone" class="form-control" id="phone" placeholder="Phone No">
+        </div>
+        <div class="form-group">
+            <label for="money">Amount</label>
+            <input disabled type="number" class="form-control" id="money" placeholder="1000">
+        </div>
+        <button id="pay" type="button" class="btn btn-primary">Pay Now</button>
+    </form>
+</div>
+
+<script src="../app/payment.js"></script>
